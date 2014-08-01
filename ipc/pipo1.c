@@ -79,13 +79,13 @@ int main(int argc, char *argv[])
 			return -6;
 		}
 		close(fd[1]);
-		if (waitpid(pid, NULL, 0) < 0)
+	/*	if (waitpid(pid, NULL, 0) < 0)
 		{
 			printf("waitpid error\n");
 
 			return -7;
 		}
-		exit(0);
+	*/	exit(0);
 	}
 	else
 	{
