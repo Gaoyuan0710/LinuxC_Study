@@ -23,6 +23,11 @@
 
 int main(int argc, char *argv[])
 {
+	int i, j;
+
+	scanf("%d,%d", &i, &j);
+
+	printf("%d %d\n", i, j);
 
 
 	return EXIT_SUCCESS;
